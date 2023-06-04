@@ -1,0 +1,131 @@
+*{
+    background:#000000;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;
+    text-align: center;  
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+    
+}
+
+.text-area {
+    background: #ffffff;
+    height: 250px;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-top: 30px;
+    padding: 2px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: #0A3871; }
+  .text-area:focus {
+      outline: none;
+    }
+
+.mensaje{
+    height: 480px;
+    background: rgb(90, 90, 90);
+    background-image: url("/Users/Anderson Gv/Desktop/EncriptadorDeTexto/Imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #ffffff;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+.mensaje:focus {
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: rgb(90, 90, 90);
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-desencriptar:hover{
+    border-color: #c78c19;
+}
+
+.btn-desencriptar:active{
+    border-color: #ff0000;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-encriptar:hover{
+    border-color: #c78c19;
+}
+
+.btn-encriptar:active{
+    border-color: #ff0000;
+}
+
+.copiar {
+    background-color: #0A3871;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 426px;
+    position: absolute;
+    width: 340px;
+}
+
+.copiar:hover {
+    border-color: #c78c19;
+}
+
+.copiar:active {
+    border-color: #ff0000;
+}
+
+.informacion {
+    color: #ff0000;
+    font-size:18px;
+}
+
+footer {
+    display: flex;
+    margin: 20px;
+    margin-left: 420px;
+    font-size: 30px;
+}
