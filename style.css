@@ -40,7 +40,7 @@ main{
 .mensaje{
     height: 480px;
     background: rgb(90, 90, 90);
-    background-image: url("/Users/Anderson Gv/Desktop/EncriptadorDeTexto/Imagenes/Muñeco.png");
+    background-image: url("Imagenes/Muñeco.png");
     background-repeat: no-repeat;
     background-position: center;
     border: none;
